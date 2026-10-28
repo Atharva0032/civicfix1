@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Local development database + uploads
+.mongo-data/
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage / tooling
+coverage/
+.DS_Store
